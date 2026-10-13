@@ -1,0 +1,10 @@
+git init => to configure git
+$ git add . => to stage all files
+$ git commit -am "feat: add my name" => to commit and add all files
+$ git commit --amend -am "change: change name to add eng prefix" => amend the last commit with new one
+$ git commit -am "feat: add bad skill section" => commit bad skills section
+$ git reset --hard HEAD^ => hard reset "rollback" to last commit
+$  ssh-keygen -t ed25519 -C "mazenmohamed222@yahoo.com" => gen ssh
+$ ssh -T git@github.com => test ssh key
+$ git remote add origin https://github.com/mazenzakarya/lab1.git => connect local repo to github
+$ git push -u origin main => push the repo
